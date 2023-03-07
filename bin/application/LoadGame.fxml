@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="popup" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" styleClass="bottom" stylesheets="@application2.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoadController">
+   <children>
+      <TextField fx:id="dict_id" layoutX="56.0" layoutY="90.0" onAction="#DictLookUp" />
+      <Text layoutX="56.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert Dictionary ID:" />
+      <Label fx:id="message" layoutX="61.0" layoutY="138.0" prefHeight="16.0" prefWidth="228.0" styleClass="text2" textFill="WHITE" />
+      <Button fx:id="ok" layoutX="303.0" layoutY="89.0" mnemonicParsing="false" onAction="#DictLookUp" prefHeight="32.0" prefWidth="69.0" stylesheets="@application2.css" text="Load" />
+      <Button fx:id="finish" layoutX="290.0" layoutY="154.0" mnemonicParsing="false" onAction="#finish" prefHeight="32.0" prefWidth="95.0" text="Finish" />
+   </children>
+</AnchorPane>
